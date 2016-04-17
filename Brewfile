@@ -171,7 +171,6 @@ appstore 451732904 App Language Chooser
 appstore 609676843 AudioMate
 appstore 908553210 AutoKeyboard
 appstore 425264550 Blackmagic Disk Speed Test
-appstore 615916400 BrowseShot
 appstore 504544917 Clear
 appstore 463541543 Gemini
 appstore 442947586 Invisor
