@@ -39,9 +39,10 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask handbrake
+cask handbrakecli
 cask hazel
 cask hosts
-cask handbrakecli
+cask istat-menus
 cask iterm2
 cask jadengeller-helium
 cask jitouch
@@ -74,42 +75,20 @@ cask vivaldi
 cask vlc
 cask vmware-fusion
 cask xld
-
-tap argon/mas
-brew mas
-
-tap caskroom/cask
+cask xquartz
 
 tap caskroom/versions
 cask google-chrome-canary
 cask iterm2-beta
-cask microsoft-office-ja
 cask vlc-nightly
-
-tap git://github.com/yutarody/homebrew-owncask
 
 tap homebrew/brewdler
 
-tap mpv-player/mpv
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty
-
-tap vitorgalvao/tiny-scripts
-
-tap yutarody/owncask
-
-# Other Homebrew packages
-brew Coreutils
+tap homebrew/core
 brew autoconf
 brew automake
 brew bchunk
 brew boost
-brew cask-repair
-brew csync
 brew curl
 brew dockutil
 brew faac
@@ -117,11 +96,8 @@ brew ffmpeg
 brew flac
 brew gettext
 brew gibo
-brew git
 brew git-lfs
-brew gnu-tar
-brew hr
-brew hub
+brew git
 brew lame
 brew libebml
 brew libmagic
@@ -129,8 +105,8 @@ brew libmatroska
 brew libogg
 brew libvorbis
 brew mackup
-brew mc
-brew mkvtoolnix --with-qt5
+brew mkvtoolnix --with-qt5 --with-qt5
+brew mpv --with-bundle
 brew nkf
 brew openssl
 brew peco
@@ -143,35 +119,50 @@ brew texi2html
 brew watch
 brew wget
 brew x264
-brew xquartz
 brew xvid
 brew xz
 brew yasm
 
-# Cask applications
-cask BlueCatsPatchwork
-cask ableton-live-suite-Custom
+tap rcmdnk/file
+brew brew-file
+
+tap sanemat/font
+brew ricty
+
+tap vitorgalvao/tiny-scripts
+
+tap yutarody/owncask
 cask ableton-live-suite-beta
+cask ableton-live-suite-Custom
 cask addictivedrum
 cask addictivekeys
 cask altiverb
 cask amplitube
 cask basic
+cask BlueCatsPatchwork
+cask brainworx-bxmegasingle
 cask circle-wavetable-generator
 cask desquander
 cask diskcatalogmaker
-cask dmm-player
 cask dmm-player-for-Chrome
+cask dmm-player
 cask dmmbookviewer
 cask ilok-license-manager
 cask macdropany
 cask macx-video-converter-pro
-cask mpv
 cask remoteplay
 cask rme-fireface-usb-driver
 cask sinevibe-atom
 cask sinevibe-zap
+cask t0wer
 cask touchable
+cask waves-central
+
+# Other Homebrew packages
+brew cask-repair
+brew gnu-tar
+brew hr
+brew hub
 
 # App Store applications
 appstore 918858936 Airmail 2
