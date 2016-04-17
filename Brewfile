@@ -51,7 +51,6 @@ cask kindle
 cask leap
 cask libreoffice
 cask lingon-x
-cask liteicon
 cask little-snitch
 cask macs-fan-control
 cask makemkv
@@ -156,6 +155,8 @@ cask sinevibe-atom
 cask sinevibe-zap
 cask t0wer
 cask touchable
+cask tse-bod
+cask virtual-mix-rack
 cask waves-central
 
 # Other Homebrew packages
