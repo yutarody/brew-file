@@ -17,6 +17,7 @@ cask batchmod
 cask bathyscaphe
 cask bettertouchtool
 cask bluestacks
+cask bootchamp
 cask cheatsheet
 cask chrome-remote-desktop-host
 cask cleanapp
@@ -34,13 +35,13 @@ cask firefox
 cask flashlight
 cask geekbench
 cask gfxcardstatus
-cask gitup
 cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask handbrake
 cask hazel
 cask hosts
+cask handbrakecli
 cask iterm2
 cask jadengeller-helium
 cask jitouch
@@ -58,7 +59,6 @@ cask mplayerx
 cask omnifocus
 cask onyx
 cask parallels-desktop
-cask path-finder
 cask shupapan
 cask silverlight
 cask sketch
@@ -74,6 +74,11 @@ cask vivaldi
 cask vlc
 cask vmware-fusion
 cask xld
+
+tap argon/mas
+brew mas
+
+tap caskroom/cask
 
 tap caskroom/versions
 cask google-chrome-canary
@@ -95,11 +100,12 @@ brew ricty
 
 tap vitorgalvao/tiny-scripts
 
-tap yutarody/homebrew-owncask
+tap yutarody/owncask
 
 # Other Homebrew packages
 brew Coreutils
 brew autoconf
+brew automake
 brew bchunk
 brew boost
 brew cask-repair
@@ -123,6 +129,7 @@ brew libmatroska
 brew libogg
 brew libvorbis
 brew mackup
+brew mc
 brew mkvtoolnix --with-qt5
 brew nkf
 brew openssl
@@ -136,6 +143,7 @@ brew texi2html
 brew watch
 brew wget
 brew x264
+brew xquartz
 brew xvid
 brew xz
 brew yasm
