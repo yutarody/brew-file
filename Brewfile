@@ -95,32 +95,42 @@ brew autoconf
 brew automake
 brew bchunk
 brew boost
+brew cairo
 brew curl
 brew dockutil
 brew faac
 brew ffmpeg
 brew flac
+brew fontconfig
+brew freetype
 brew gettext
 brew gibo
 brew git-lfs
 brew git
-brew lame
+brew gobject-introspection
+brew harfbuzz
+brew icu4c
 brew libebml
+brew libffi
 brew libmagic
 brew libmatroska
 brew libogg
+brew libpng
 brew libvorbis
 brew mackup
-brew mkvtoolnix --with-qt5 --with-qt5
+brew mkvtoolnix --with-qt5
 brew mpv --with-bundle
 brew nkf
 brew openssl
 brew peco
+brew pixman
 brew pkg-config
 brew pv
 brew qt5
 brew rbenv
+brew readline
 brew ruby-build
+brew sqlite
 brew texi2html
 brew watch
 brew wget
@@ -163,6 +173,7 @@ cask tse-bod
 
 # Other Homebrew packages
 brew cask-repair
+brew glib
 brew gnu-tar
 brew hr
 brew hub
@@ -195,4 +206,5 @@ appstore 404010395 TextWrangler
 appstore 557168941 Tweetbot
 appstore 409789998 Twitter
 appstore 414855915 WinArchiver Lite
+appstore 408981434 iMovie 9.0.9
 appstore 940526959 insTuner
