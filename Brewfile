@@ -63,7 +63,7 @@ cask mplayerx
 cask omnifocus
 cask onyx
 cask parallels-desktop
-cask remoteplay
+cask remote-play
 cask shupapan
 cask silverlight
 cask sketch
