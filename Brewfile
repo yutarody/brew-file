@@ -18,14 +18,18 @@ cask bathyscaphe
 cask bettertouchtool
 cask bluestacks
 cask bootchamp
+cask brainworx-bxmegasingle
 cask cheatsheet
 cask chrome-remote-desktop-host
+cask circle-wavetable-generator
 cask cleanapp
 cask cooviewer
 cask crossover
 cask cycling74-max
 cask daisydisk
 cask dash
+cask deegain-au
+cask deepanpot-au
 cask dropbox
 cask duet
 cask etrecheck
@@ -59,6 +63,7 @@ cask mplayerx
 cask omnifocus
 cask onyx
 cask parallels-desktop
+cask remoteplay
 cask shupapan
 cask silverlight
 cask sketch
@@ -70,9 +75,11 @@ cask spotify
 cask switchresx
 cask textexpander
 cask the-unarchiver
+cask virtual-mix-rack
 cask vivaldi
 cask vlc
 cask vmware-fusion
+cask waves-central
 cask xld
 cask xquartz
 
@@ -139,8 +146,6 @@ cask altiverb
 cask amplitube
 cask basic
 cask BlueCatsPatchwork
-cask brainworx-bxmegasingle
-cask circle-wavetable-generator
 cask desquander
 cask diskcatalogmaker
 cask dmm-player-for-Chrome
@@ -149,15 +154,12 @@ cask dmmbookviewer
 cask ilok-license-manager
 cask macdropany
 cask macx-video-converter-pro
-cask remoteplay
 cask rme-fireface-usb-driver
 cask sinevibe-atom
 cask sinevibe-zap
 cask t0wer
 cask touchable
 cask tse-bod
-cask virtual-mix-rack
-cask waves-central
 
 # Other Homebrew packages
 brew cask-repair
