@@ -96,6 +96,7 @@ brew automake
 brew bchunk
 brew boost
 brew cairo
+brew coreutils
 brew curl
 brew dockutil
 brew faac
