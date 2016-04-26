@@ -39,6 +39,7 @@ cask firefox
 cask flashlight
 cask geekbench
 cask gfxcardstatus
+cask gitkraken
 cask google-chrome
 cask google-drive
 cask google-japanese-ime
@@ -104,6 +105,7 @@ brew ffmpeg
 brew flac
 brew fontconfig
 brew freetype
+brew fribidi
 brew gettext
 brew gibo
 brew git-lfs
@@ -111,13 +113,19 @@ brew git
 brew gobject-introspection
 brew harfbuzz
 brew icu4c
+brew jpeg
+brew lame
+brew libass
 brew libebml
 brew libffi
 brew libmagic
 brew libmatroska
 brew libogg
 brew libpng
+brew libtiff
 brew libvorbis
+brew little-cms2
+brew lua
 brew mackup
 brew mkvtoolnix --with-qt5
 brew mpv --with-bundle
@@ -127,6 +135,7 @@ brew peco
 brew pixman
 brew pkg-config
 brew pv
+brew python3
 brew qt5
 brew rbenv
 brew readline
@@ -139,6 +148,7 @@ brew x264
 brew xvid
 brew xz
 brew yasm
+brew youtube-dl
 
 tap rcmdnk/file
 brew brew-file
@@ -163,6 +173,8 @@ cask dmm-player-for-Chrome
 cask dmm-player
 cask dmmbookviewer
 cask ilok-license-manager
+cask java6-runtime
+cask lingon-x2
 cask macdropany
 cask macx-video-converter-pro
 cask rme-fireface-usb-driver
