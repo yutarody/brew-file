@@ -162,7 +162,7 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty
+brew ricty --vim-powerline
 
 tap vitorgalvao/tiny-scripts
 
