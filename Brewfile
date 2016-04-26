@@ -106,7 +106,6 @@ brew flac
 brew fontconfig
 brew freetype
 brew fribidi
-brew gdbm
 brew gettext
 brew gibo
 brew git-lfs
