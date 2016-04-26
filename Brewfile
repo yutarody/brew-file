@@ -111,6 +111,7 @@ brew fribidi
 brew gdbm
 brew gettext
 brew gibo
+brew git-flow
 brew git-lfs
 brew git
 brew gobject-introspection
