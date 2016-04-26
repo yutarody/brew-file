@@ -99,13 +99,16 @@ brew boost
 brew cairo
 brew coreutils
 brew curl
+brew czmq
 brew dockutil
 brew faac
 brew ffmpeg
 brew flac
 brew fontconfig
+brew fontforge
 brew freetype
 brew fribidi
+brew gdbm
 brew gettext
 brew gibo
 brew git-lfs
@@ -122,7 +125,9 @@ brew libmagic
 brew libmatroska
 brew libogg
 brew libpng
+brew libsodium
 brew libtiff
+brew libtool
 brew libvorbis
 brew little-cms2
 brew lua
@@ -131,6 +136,7 @@ brew mkvtoolnix --with-qt5
 brew mpv --with-bundle
 brew nkf
 brew openssl
+brew pango
 brew peco
 brew pixman
 brew pkg-config
@@ -149,6 +155,7 @@ brew xvid
 brew xz
 brew yasm
 brew youtube-dl
+brew zeromq
 
 tap rcmdnk/file
 brew brew-file
