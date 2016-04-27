@@ -30,6 +30,7 @@ cask daisydisk
 cask dash
 cask deegain-au
 cask deepanpot-au
+cask deespeaker-au
 cask dropbox
 cask duet
 cask etrecheck
