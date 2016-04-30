@@ -57,9 +57,11 @@ cask kindle
 cask leap
 cask libreoffice
 cask lingon-x
+cask liteicon
 cask little-snitch
 cask macs-fan-control
 cask makemkv
+cask microsoft-office
 cask mplayer-osx-extended
 cask mplayerx
 cask omnifocus
@@ -143,7 +145,7 @@ brew peco
 brew pixman
 brew pkg-config
 brew pv
-brew python3
+brew pyenv
 brew qt5
 brew rbenv
 brew readline
