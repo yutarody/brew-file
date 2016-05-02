@@ -31,6 +31,7 @@ cask dash
 cask deegain-au
 cask deepanpot-au
 cask deespeaker-au
+cask diskcatalogmaker
 cask dropbox
 cask duet
 cask etrecheck
@@ -179,7 +180,6 @@ cask amplitube
 cask basic
 cask BlueCatsPatchwork
 cask desquander
-cask diskcatalogmaker
 cask dmm-player-for-Chrome
 cask dmm-player
 cask dmmbookviewer
@@ -201,6 +201,9 @@ brew glib
 brew gnu-tar
 brew hr
 brew hub
+
+# Cask applications
+cask /Users/yutaro/.repos/homebrew-owncask/Casks/diskcatalogmaker.rb
 
 # App Store applications
 appstore 918858936 Airmail 2
