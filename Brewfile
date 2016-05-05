@@ -32,6 +32,9 @@ cask deegain-au
 cask deepanpot-au
 cask deespeaker-au
 cask diskcatalogmaker
+cask dmm-player-for-Chrome
+cask dmm-player
+cask dmmbookviewer
 cask dockertoolbox
 cask dropbox
 cask duet
@@ -186,9 +189,6 @@ cask amplitube
 cask basic
 cask BlueCatsPatchwork
 cask desquander
-cask dmm-player-for-Chrome
-cask dmm-player
-cask dmmbookviewer
 cask ilok-license-manager
 cask java6-runtime
 cask lingon-x2
