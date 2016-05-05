@@ -32,7 +32,6 @@ cask deegain-au
 cask deepanpot-au
 cask deespeaker-au
 cask diskcatalogmaker
-cask dmm-player-for-Chrome
 cask dmm-player
 cask dmmbookviewer
 cask dockertoolbox
@@ -95,6 +94,7 @@ cask xld
 cask xquartz
 
 tap caskroom/versions
+cask dmm-player-for-chrome
 cask google-chrome-canary
 cask iterm2-beta
 cask vlc-nightly
