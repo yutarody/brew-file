@@ -149,6 +149,7 @@ brew mpv --with-bundle
 brew nkf
 brew openssl
 brew pango
+brew pcre
 brew peco
 brew pixman
 brew pkg-config
@@ -168,6 +169,7 @@ brew xz
 brew yasm
 brew youtube-dl
 brew zeromq
+brew zsh
 
 tap rcmdnk/file
 brew brew-file
