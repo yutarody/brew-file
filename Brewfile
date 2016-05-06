@@ -144,8 +144,8 @@ brew libvorbis
 brew little-cms2
 brew lua
 brew mackup
-brew mkvtoolnix --with-qt5
-brew mpv --with-bundle
+brew mkvtoolnix
+brew mpv
 brew nkf
 brew openssl
 brew pango
@@ -175,7 +175,7 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty --vim-powerline
+brew ricty
 
 tap thoughtbot/formulae
 brew rcm
