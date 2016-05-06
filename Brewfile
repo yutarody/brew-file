@@ -85,6 +85,7 @@ cask steam
 cask switchresx
 cask textexpander
 cask the-unarchiver
+cask vagrant
 cask virtual-mix-rack
 cask vivaldi
 cask vlc
