@@ -108,6 +108,7 @@ brew automake
 brew bchunk
 brew boost
 brew cairo
+brew cheat
 brew coreutils
 brew curl
 brew czmq
