@@ -126,8 +126,12 @@ brew gibo
 brew git-flow
 brew git-lfs
 brew git
+brew glib
+brew gnu-tar
 brew gobject-introspection
 brew harfbuzz
+brew hr
+brew hub
 brew icu4c
 brew jpeg
 brew lame
@@ -182,6 +186,7 @@ tap thoughtbot/formulae
 brew rcm
 
 tap vitorgalvao/tiny-scripts
+brew cask-repair
 
 tap yutarody/owncask
 cask ableton-live-suite-beta
@@ -205,12 +210,8 @@ cask t0wer
 cask touchable
 cask tse-bod
 
-# Other Homebrew packages
-brew cask-repair
-brew glib
-brew gnu-tar
-brew hr
-brew hub
+# Cask applications
+cask /Users/yutaro/.repos/homebrew-owncask/Casks/serum.rb
 
 # App Store applications
 appstore 918858936 Airmail 2
