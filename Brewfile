@@ -16,6 +16,7 @@ cask au-lab
 cask batchmod
 cask bathyscaphe
 cask bettertouchtool
+cask beyerdynamicvs
 cask bluestacks
 cask bootchamp
 cask brainworx-bxmegasingle
@@ -98,6 +99,7 @@ tap caskroom/versions
 cask dmm-player-for-chrome
 cask google-chrome-canary
 cask iterm2-beta
+cask java6
 cask vlc-nightly
 
 tap homebrew/brewdler
@@ -199,7 +201,6 @@ cask basic
 cask BlueCatsPatchwork
 cask desquander
 cask ilok-license-manager
-cask java6-runtime
 cask lingon-x2
 cask macdropany
 cask macx-video-converter-pro
