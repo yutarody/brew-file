@@ -61,7 +61,6 @@ cask keka
 cask kindle
 cask leap
 cask libreoffice
-cask lingon-x
 cask liteicon
 cask little-snitch
 cask macs-fan-control
@@ -201,7 +200,6 @@ cask basic
 cask BlueCatsPatchwork
 cask desquander
 cask ilok-license-manager
-cask lingon-x2
 cask macdropany
 cask macx-video-converter-pro
 cask rme-fireface-usb-driver
