@@ -53,6 +53,7 @@ cask handbrake
 cask handbrakecli
 cask hazel
 cask hosts
+cask ilok-license-manager
 cask istat-menus
 cask iterm2
 cask jadengeller-helium
@@ -70,6 +71,7 @@ cask mplayer-osx-extended
 cask mplayerx
 cask omnifocus
 cask onyx
+cask pacifist
 cask parallels-desktop
 cask remote-play
 cask shupapan
@@ -99,6 +101,7 @@ cask dmm-player-for-chrome
 cask google-chrome-canary
 cask iterm2-beta
 cask java6
+cask lingon-x2
 cask vlc-nightly
 
 tap homebrew/brewdler
@@ -199,18 +202,15 @@ cask amplitube
 cask basic
 cask BlueCatsPatchwork
 cask desquander
-cask ilok-license-manager
 cask macdropany
 cask macx-video-converter-pro
 cask rme-fireface-usb-driver
+cask serum
 cask sinevibe-atom
 cask sinevibe-zap
 cask t0wer
 cask touchable
 cask tse-bod
-
-# Cask applications
-cask /Users/yutaro/.repos/homebrew-owncask/Casks/serum.rb
 
 # App Store applications
 appstore 918858936 Airmail 2
