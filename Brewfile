@@ -202,9 +202,9 @@ cask amplitube
 cask basic
 cask BlueCatsPatchwork
 cask desquander
+cask fireface-usb-driver
 cask macdropany
 cask macx-video-converter-pro
-cask rme-fireface-usb-driver
 cask serum
 cask sinevibe-atom
 cask sinevibe-zap
