@@ -62,6 +62,7 @@ cask keka
 cask kindle
 cask leap
 cask libreoffice
+cask license-control-center
 cask liteicon
 cask little-snitch
 cask macs-fan-control
@@ -73,6 +74,8 @@ cask omnifocus
 cask onyx
 cask pacifist
 cask parallels-desktop
+cask proximity
+cask qlmarkdown
 cask remote-play
 cask shupapan
 cask silverlight
@@ -82,6 +85,7 @@ cask skype
 cask slack
 cask smoothmouse
 cask sourcetree
+cask splice
 cask spotify
 cask steam
 cask switchresx
@@ -97,6 +101,8 @@ cask xld
 cask xquartz
 
 tap caskroom/versions
+cask ableton-live-suite
+cask ableton-live-beta
 cask dmm-player-for-chrome
 cask google-chrome-canary
 cask iterm2-beta
@@ -154,7 +160,7 @@ brew little-cms2
 brew lua
 brew mackup
 brew mkvtoolnix
-brew mpv
+brew mpv --with-bundle
 brew nkf
 brew openssl
 brew pango
@@ -168,6 +174,7 @@ brew qt5
 brew rbenv
 brew readline
 brew ruby-build
+brew shc
 brew sqlite
 brew texi2html
 brew watch
@@ -193,8 +200,6 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 tap yutarody/owncask
-cask ableton-live-suite-beta
-cask ableton-live-suite-Custom
 cask addictivedrum
 cask addictivekeys
 cask altiverb
@@ -211,6 +216,7 @@ cask sinevibe-zap
 cask t0wer
 cask touchable
 cask tse-bod
+cask vienna-ensemble-pro
 
 # App Store applications
 appstore 918858936 Airmail 2
