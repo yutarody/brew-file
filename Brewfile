@@ -85,7 +85,6 @@ cask skype
 cask slack
 cask smoothmouse
 cask sourcetree
-cask splice
 cask spotify
 cask steam
 cask switchresx
@@ -101,14 +100,13 @@ cask xld
 cask xquartz
 
 tap caskroom/versions
-cask ableton-live-suite
 cask ableton-live-beta
+cask ableton-live-suite
 cask dmm-player-for-chrome
 cask google-chrome-canary
 cask iterm2-beta
 cask java6
 cask lingon-x2
-cask vlc-nightly
 
 tap homebrew/brewdler
 
