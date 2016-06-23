@@ -107,6 +107,7 @@ cask google-chrome-canary
 cask iterm2-beta
 cask java6
 cask lingon-x2
+cask vlc-nightly
 
 tap homebrew/brewdler
 
