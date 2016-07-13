@@ -114,6 +114,7 @@ tap homebrew/brewdler
 tap homebrew/core
 brew autoconf
 brew automake
+brew axel
 brew bchunk
 brew boost
 brew cairo
