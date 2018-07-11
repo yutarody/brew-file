@@ -114,6 +114,7 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 tap yutarody/owncask
+cask ableton-live-beta
 cask addictivedrum
 cask altiverb
 cask basic
@@ -217,6 +218,7 @@ cask makemkv
 cask microsoft-office
 cask mplayer-osx-extended
 cask mplayerx
+cask native-access
 cask omnifocus
 cask onyx
 cask pacifist
