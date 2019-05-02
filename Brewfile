@@ -8,6 +8,7 @@ brew automake
 brew axel
 brew bchunk
 brew boost
+brew brew-gem
 brew cairo
 brew cheat
 brew cliclick
@@ -37,6 +38,7 @@ brew git-lfs
 brew glib
 brew gnu-tar
 brew gobject-introspection
+brew graphite2
 brew harfbuzz
 brew hr
 brew hub
@@ -59,10 +61,12 @@ brew libtool
 brew libvorbis
 brew little-cms2
 brew lua
+brew lua@5.1
 brew mackup
 brew mas
 brew mkvtoolnix
-brew mpv
+brew mpv --with-bundle
+brew mujs
 brew mvtools
 brew nasm
 brew nkf
@@ -126,12 +130,16 @@ cask ableton-live-beta
 cask addictivedrum
 cask altiverb
 cask basic
-cask bluecatspatchwork
+cask bfd
 cask desquander
 cask fireface-usb-driver
+cask logic-pro-x
+cask pianoteq-stage
+cask reference
 cask serum
 cask sinevibe-atom
 cask soundtoys
+cask studio-one
 cask t0wer
 cask touchable
 cask uad
@@ -139,6 +147,7 @@ cask vienna-ensemble-pro
 
 # Other Cask applications
 cask 1password
+cask a-better-finder-rename
 cask ableton-live-suite
 cask addictivekeys
 cask adobe-creative-cloud
@@ -150,10 +159,12 @@ cask appcleaner
 cask arrsync
 cask atom
 cask au-lab
+cask barrier
 cask batchmod
 cask bathyscaphe
 cask bettertouchtool
 cask beyerdynamicvs
+cask bluecatspatchwork
 cask bluestacks
 cask bootchamp
 cask brainworx-bxmegasingle
@@ -171,6 +182,7 @@ cask dash
 cask deegain-au
 cask deepanpot-au
 cask deespeaker-au
+cask deezer
 cask diskcatalogmaker
 cask diskmaker-x
 cask dmm-player
@@ -232,6 +244,7 @@ cask polymail
 cask proximity
 cask qlmarkdown
 cask remote-play
+cask sharemouse
 cask shupapan
 cask silverlight
 cask sinevibe-zap
@@ -244,6 +257,7 @@ cask sourcetree
 cask splice
 cask spotify
 cask steam
+cask symboliclinker
 cask teamviewer
 cask textexpander
 cask the-unarchiver
