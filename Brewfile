@@ -255,6 +255,10 @@ cask waves-central
 cask xee
 cask xld
 cask xquartz
+brew selenium-server-standalone
+brew wakeonlan
+cask chromedriver
+cask plex-media-player
 
 # App Store applications
 appstore 918858936 Airmail 2
