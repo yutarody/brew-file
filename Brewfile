@@ -7,13 +7,13 @@ brew autoconf
 brew automake
 brew bchunk
 brew boost
+brew brew-gem
 brew cairo
 brew cheat
 brew coreutils
 brew curl
 brew czmq
 brew dockutil
-brew docutils
 brew faac
 brew ffmpeg --with-libass --with-openssl --with-rtmpdump --with-x265 --with-libbs2b --with-libvorbis --with-theora
 brew ffms2
@@ -25,7 +25,6 @@ brew freetype
 brew fribidi
 brew gcc
 brew gdbm
-brew geckodriver
 brew gettext
 brew gibo
 brew git
@@ -46,7 +45,6 @@ brew lame
 brew leptonica
 brew libarchive
 brew libass
-brew libbs2b
 brew libebml
 brew libffi
 brew libidn2
@@ -55,7 +53,6 @@ brew libmatroska
 brew libmpc
 brew libogg
 brew libpng
-brew libsndfile
 brew libsodium
 brew libtiff
 brew libtool
@@ -92,7 +89,6 @@ brew ruby-build
 brew selenium-server-standalone
 brew shc
 brew sqlite
-brew stow
 brew subliminal
 brew tesseract
 brew texi2html
@@ -196,14 +192,22 @@ cask ableton-live-beta
 cask addictivekeys
 cask altiverb
 cask basic
-cask bluecatspatchwork
+cask bfd
 cask desquander
 cask fireface-usb-driver
+cask logic-pro-x
+cask pianoteq-stage
+cask reference
 cask serum
 cask sinevibe-atom
 cask t0wer
 cask touchable
 cask vienna-ensemble-pro
+
+# Other Homebrew packages
+brew hg
+brew python3
+brew qt5
 
 # Other Cask applications
 cask addictivedrum
