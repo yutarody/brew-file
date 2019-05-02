@@ -140,9 +140,9 @@ cask dropbox
 cask evernote
 cask faw-circle
 cask firefox
-cask fluid
-cask geekbench
-cask gitkraken
+cask gas-mask
+cask gfxcardstatus
+cask google-chrome
 cask google-japanese-ime
 cask hazel
 cask hyperswitch
@@ -236,9 +236,8 @@ cask edgeview
 cask etrecheck
 cask fantastical
 cask flashlight
-cask gas-mask
-cask gfxcardstatus
-cask google-chrome
+cask geekbench
+cask gitkraken
 cask google-drive
 cask handbrake
 cask handbrakecli
