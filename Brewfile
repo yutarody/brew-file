@@ -164,7 +164,6 @@ cask batchmod
 cask bathyscaphe
 cask bettertouchtool
 cask beyerdynamicvs
-cask bluecatspatchwork
 cask bluestacks
 cask bootchamp
 cask brainworx-bxmegasingle
@@ -244,7 +243,6 @@ cask polymail
 cask proximity
 cask qlmarkdown
 cask remote-play
-cask sharemouse
 cask shupapan
 cask silverlight
 cask sinevibe-zap
@@ -271,12 +269,10 @@ cask vlc
 cask vlc-nightly
 cask vmware-fusion
 cask waves-central
-cask xee
 cask xld
 cask xquartz
 
 # App Store applications
-appstore 918858936 Airmail 2
 appstore 451732904 App Language Chooser
 appstore 609676843 AudioMate
 appstore 908553210 AutoKeyboard
