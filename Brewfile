@@ -74,12 +74,14 @@ brew python
 brew rbenv
 brew readline
 brew ruby-build
+brew selenium-server-standalone
 brew shc
 brew sqlite
 brew subliminal
 brew tesseract
 brew texi2html
 brew vapoursynth
+brew wakeonlan
 brew watch
 brew wget
 brew x264
@@ -157,6 +159,7 @@ cask brainworx-bxmegasingle
 cask calibre
 cask cheatsheet
 cask chrome-remote-desktop-host
+cask chromedriver
 cask circle-wavetable-generator
 cask cleanapp
 cask cooviewer
@@ -223,6 +226,7 @@ cask omnifocus
 cask onyx
 cask pacifist
 cask parallels-desktop
+cask plex-media-player
 cask polymail
 cask proximity
 cask qlmarkdown
@@ -255,10 +259,6 @@ cask waves-central
 cask xee
 cask xld
 cask xquartz
-brew selenium-server-standalone
-brew wakeonlan
-cask chromedriver
-cask plex-media-player
 
 # App Store applications
 appstore 918858936 Airmail 2
