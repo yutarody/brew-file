@@ -17,6 +17,7 @@ brew curl
 brew cvs
 brew czmq
 brew dockutil
+brew docutils
 brew faac
 brew ffmpeg
 brew ffms2
@@ -27,6 +28,7 @@ brew fontforge
 brew freetype
 brew fribidi
 brew gdbm
+brew geckodriver
 brew gettext
 brew gibo
 brew git
@@ -43,12 +45,14 @@ brew jpeg
 brew lame
 brew leptonica
 brew libass
+brew libbs2b
 brew libebml
 brew libffi
 brew libmagic
 brew libmatroska
 brew libogg
 brew libpng
+brew libsndfile
 brew libsodium
 brew libtiff
 brew libtool
@@ -71,12 +75,14 @@ brew pkg-config
 brew pv
 brew pyenv
 brew python
+brew qt
 brew rbenv
 brew readline
 brew ruby-build
 brew selenium-server-standalone
 brew shc
 brew sqlite
+brew stow
 brew subliminal
 brew tesseract
 brew texi2html
@@ -130,11 +136,6 @@ cask t0wer
 cask touchable
 cask uad
 cask vienna-ensemble-pro
-
-# Other Homebrew packages
-brew hg
-brew python3
-brew qt5
 
 # Other Cask applications
 cask 1password
