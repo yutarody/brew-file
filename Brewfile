@@ -230,7 +230,6 @@ cask deepanpot-au
 cask deespeaker-au
 cask dmm-player
 cask dmmbookviewer
-cask dockertoolbox
 cask duet
 cask edgeview
 cask etrecheck
