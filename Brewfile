@@ -5,21 +5,17 @@ tap homebrew/core
 brew aria2
 brew autoconf
 brew automake
-brew axel
 brew bchunk
 brew boost
 brew cairo
 brew cheat
-brew cliclick
-brew cmake
 brew coreutils
 brew curl
-brew cvs
 brew czmq
 brew dockutil
 brew docutils
 brew faac
-brew ffmpeg
+brew ffmpeg --with-libass --with-openssl --with-rtmpdump --with-x265 --with-libbs2b --with-libvorbis --with-theora
 brew ffms2
 brew fftw
 brew flac
@@ -27,6 +23,7 @@ brew fontconfig
 brew fontforge
 brew freetype
 brew fribidi
+brew gcc
 brew gdbm
 brew geckodriver
 brew gettext
@@ -35,37 +32,48 @@ brew git
 brew git-flow
 brew git-lfs
 brew glib
+brew gmp
 brew gnu-tar
 brew gobject-introspection
+brew graphite2
 brew harfbuzz
 brew hr
 brew hub
 brew icu4c
+brew isl
 brew jpeg
 brew lame
 brew leptonica
+brew libarchive
 brew libass
 brew libbs2b
 brew libebml
 brew libffi
+brew libidn2
 brew libmagic
 brew libmatroska
+brew libmpc
 brew libogg
 brew libpng
 brew libsndfile
 brew libsodium
 brew libtiff
 brew libtool
+brew libunistring
 brew libvorbis
 brew little-cms2
 brew lua
+brew lua@5.1
 brew mackup
 brew mas
 brew mkvtoolnix
-brew mpv
-brew mvtools
+brew mpfr
+brew mpv --with-bundle --with-vapoursynth
+brew mujs
+brew mvtools --HEAD
 brew nasm
 brew nkf
+brew nodebrew
 brew openssl
 brew pango
 brew pcre
@@ -75,9 +83,11 @@ brew pkg-config
 brew pv
 brew pyenv
 brew python
+brew python@2
 brew qt
 brew rbenv
 brew readline
+brew rtmpdump
 brew ruby-build
 brew selenium-server-standalone
 brew shc
@@ -86,28 +96,88 @@ brew stow
 brew subliminal
 brew tesseract
 brew texi2html
+brew theora
 brew vapoursynth
 brew wakeonlan
 brew watch
 brew wget
 brew x264
+brew x265
 brew xvid
 brew xz
 brew yasm
 brew youtube-dl
 brew zeromq
 brew zimg
-brew zsh
+brew zsh --without-etcdir
 
 tap homebrew/brewdler
 
-tap homebrew/homebrew-cask-drivers
+tap homebrew/cask-drivers
+cask apogee-duet
+
+tap homebrew/cask-versions
+cask google-chrome-canary
+cask iterm2-beta
+cask java6
+cask vivaldi-snapshot
+
+tap homebrew/cask
+cask 1password
+cask ableton-live-suite
+cask adobe-creative-cloud
+cask alternote
+cask appcleaner
+cask atom
+cask batchmod
+cask bettertouchtool
+cask bluestacks
+cask calibre
+cask chrome-remote-desktop-host
+cask cleanapp
+cask crossover
+cask cycling74-max
+cask dash
+cask diskcatalogmaker
+cask dmm-player-for-chrome
+cask dropbox
+cask evernote
+cask faw-circle
+cask firefox
+cask fluid
+cask geekbench
+cask gitkraken
+cask google-japanese-ime
+cask hazel
+cask hyperswitch
+cask ilok-license-manager
+cask iterm2
+cask jitouch
+cask kindle
+cask libreoffice
+cask liteicon
+cask macdropany
+cask makemkv
+cask mplayer-osx-extended
+cask obs
+cask onyx
+cask plex-media-player
+cask proximity
+cask shupapan
+cask sketch
+cask skype
+cask sourcetree
+cask spotify
+cask switchresx
+cask teamviewer
+cask the-unarchiver
+cask vagrant
+cask virtualbox
+cask vlc
+cask waves-central
+cask xld
 
 tap argon/mas
-
-tap caskroom/cask
-
-tap caskroom/versions
 
 tap rcmdnk/file
 brew brew-file
@@ -123,7 +193,7 @@ brew cask-repair
 
 tap yutarody/owncask
 cask ableton-live-beta
-cask addictivedrum
+cask addictivekeys
 cask altiverb
 cask basic
 cask bluecatspatchwork
@@ -131,162 +201,109 @@ cask desquander
 cask fireface-usb-driver
 cask serum
 cask sinevibe-atom
-cask soundtoys
 cask t0wer
 cask touchable
-cask uad
 cask vienna-ensemble-pro
 
 # Other Cask applications
-cask 1password
-cask ableton-live-suite
-cask addictivekeys
-cask adobe-creative-cloud
+cask addictivedrum
 cask alfred
-cask alternote
 cask amplitube
-cask apogee-duet
-cask appcleaner
 cask arrsync
-cask atom
 cask au-lab
-cask batchmod
 cask bathyscaphe
-cask bettertouchtool
 cask beyerdynamicvs
-cask bluestacks
 cask bootchamp
 cask brainworx-bxmegasingle
-cask calibre
 cask cheatsheet
-cask chrome-remote-desktop-host
 cask chromedriver
 cask circle-wavetable-generator
-cask cleanapp
 cask cooviewer
-cask crossover
-cask cycling74-max
+cask cyberduck
 cask daisydisk
-cask dash
 cask deegain-au
 cask deepanpot-au
 cask deespeaker-au
-cask diskcatalogmaker
-cask diskmaker-x
 cask dmm-player
-cask dmm-player-for-chrome
 cask dmmbookviewer
-cask docker-toolbox
-cask dropbox
+cask dockertoolbox
 cask duet
 cask edgeview
 cask etrecheck
-cask evernote
-cask faw-circle
-cask firefox
+cask fantastical
 cask flashlight
 cask gas-mask
-cask geekbench
 cask gfxcardstatus
-cask gitkraken
 cask google-chrome
-cask google-chrome-canary
 cask google-drive
-cask google-japanese-ime
 cask handbrake
 cask handbrakecli
-cask hazel
 cask hosts
-cask hyperswitch
 cask iina
-cask ilok-license-manager
 cask istat-menus
-cask iterm2
-cask iterm2-beta
 cask jadengeller-helium
-cask java6
-cask jitouch
 cask keka
-cask kindle
 cask leap
-cask libreoffice
 cask license-control-center
 cask lingon-x2
-cask liteicon
 cask little-snitch
-cask logitech-options
-cask macdropany
 cask macs-fan-control
 cask macx-video-converter-pro
-cask makemkv
 cask microsoft-office
-cask mplayer-osx-extended
 cask mplayerx
-cask native-access
 cask omnifocus
-cask onyx
 cask pacifist
 cask parallels-desktop
-cask plex-media-player
 cask polymail
-cask proximity
 cask qlmarkdown
 cask remote-play
-cask shupapan
 cask silverlight
 cask sinevibe-zap
-cask sketch
 cask skitch
-cask skype
 cask slack
 cask smoothmouse
-cask sourcetree
 cask splice
-cask spotify
 cask steam
-cask teamviewer
 cask textexpander
-cask the-unarchiver
 cask tse-bod
-cask unetbootin
-cask vagrant
 cask virtual-mix-rack
 cask vivaldi
-cask vivaldi-snapshot
-cask vlc
-cask vlc-nightly
 cask vmware-fusion
-cask waves-central
 cask xee
-cask xld
 cask xquartz
 
 # App Store applications
-appstore 918858936 Airmail 2
-appstore 451732904 App Language Chooser
-appstore 609676843 AudioMate
-appstore 908553210 AutoKeyboard
-appstore 425264550 Blackmagic Disk Speed Test
-appstore 504544917 Clear
-appstore 463541543 Gemini
-appstore 940526959 insTuner
-appstore 442947586 Invisor
-appstore 528183797 Joystick Mapper
-appstore 914708191 Kaomoji Lover
-appstore 585126594 Kiritori
-appstore 539883307 LINE
-appstore 430255202 Mactracker
-appstore 574923230 Memory Magic
-appstore 715768417 Microsoft Remote Desktop
-appstore 419330170 Moom
-appstore 461788075 Movist
-appstore 409203825 Numbers
-appstore 409201541 Pages
-appstore 407963104 Pixelmator
-appstore 568494494 Pocket
-appstore 445189367 PopClip
-appstore 880001334 Reeder
-appstore 404010395 TextWrangler
-appstore 557168941 Tweetbot
-appstore 409789998 Twitter
-appstore 414855915 WinArchiver Lite
+appstore 443987910 1Password (6.8.8)
+appstore 451732904 App Language Chooser (1.0)
+appstore 609676843 AudioMate (2.2.6)
+appstore 908553210 AutoKeyboard (1.2)
+appstore 425264550 Blackmagic Disk Speed Test (3.2)
+appstore 504544917 Clear (1.1.7)
+appstore 402485111 Ehon (1.0.1)
+appstore 463541543 Gemini (1.5.17)
+appstore 0 Install macOS Mojave (14.0.22)
+appstore 940526959 insTuner (1.3)
+appstore 442947586 Invisor (3.9)
+appstore 528183797 Joystick Mapper (1.1.3)
+appstore 914708191 Kaomoji Lover (1.3.2)
+appstore 585126594 Kiritori (0.9.2)
+appstore 539883307 LINE (5.12.0)
+appstore 430255202 Mactracker (7.7.7)
+appstore 441258766 Magnet (2.1.0)
+appstore 558268579 MailRaider (3.24)
+appstore 574923230 Memory Magic (1.2)
+appstore 1295203466 Microsoft Remote Desktop (10.2.4)
+appstore 715768417 Microsoft Remote Desktop (8.0.30030)
+appstore 419330170 Moom (3.2.13)
+appstore 461788075 Movist (2.0.4)
+appstore 409203825 Numbers (3.6.2)
+appstore 409201541 Pages (5.6.2)
+appstore 929507092 PhotoScapeX (2.8.2)
+appstore 407963104 Pixelmator (3.8)
+appstore 568494494 Pocket (1.8.1)
+appstore 445189367 PopClip (1.5.8)
+appstore 880001334 Reeder (3.2.1)
+appstore 1035516352 ScanSnap Cloud (1.2.10)
+appstore 404010395 TextWrangler (5.5.2)
+appstore 414855915 WinArchiver Lite (2.5.3)
+appstore 497799835 Xcode (8.2.1)
