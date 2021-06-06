@@ -1,117 +1,6 @@
 
 # tap repositories and their packages
 
-tap homebrew/core
-brew aria2
-brew autoconf
-brew automake
-brew bchunk
-brew boost
-brew brew-gem
-brew cairo
-brew cheat
-brew coreutils
-brew curl
-brew czmq
-brew dockutil
-brew faac
-brew ffmpeg --with-libass --with-openssl --with-rtmpdump --with-x265 --with-libbs2b --with-libvorbis --with-theora
-brew ffms2
-brew fftw
-brew flac
-brew fontconfig
-brew fontforge
-brew freetype
-brew fribidi
-brew gcc
-brew gdbm
-brew gettext
-brew gibo
-brew git
-brew git-flow
-brew git-lfs
-brew glib
-brew gmp
-brew gnu-tar
-brew gobject-introspection
-brew graphite2
-brew harfbuzz
-brew hr
-brew hub
-brew icu4c
-brew isl
-brew jpeg
-brew lame
-brew leptonica
-brew libarchive
-brew libass
-brew libebml
-brew libffi
-brew libidn2
-brew libmagic
-brew libmatroska
-brew libmpc
-brew libogg
-brew libpng
-brew libsodium
-brew libtiff
-brew libtool
-brew libunistring
-brew libvorbis
-brew little-cms2
-brew lua
-brew lua@5.1
-brew mackup
-brew mas
-brew mkvtoolnix
-brew mpfr
-brew mpv --with-bundle --with-vapoursynth
-brew mujs
-brew mvtools --HEAD
-brew nasm
-brew nkf
-brew nodebrew
-brew openssl
-brew pango
-brew pcre
-brew peco
-brew pixman
-brew pkg-config
-brew pv
-brew pyenv
-brew python
-brew python@2
-brew qt
-brew rbenv
-brew readline
-brew rtmpdump
-brew ruby-build
-brew selenium-server-standalone
-brew shc
-brew sqlite
-brew subliminal
-brew tesseract
-brew texi2html
-brew theora
-brew vapoursynth
-brew wakeonlan
-brew watch
-brew wget
-brew x264
-brew x265
-brew xvid
-brew xz
-brew yasm
-brew youtube-dl
-brew zeromq
-brew zimg
-brew zsh --without-etcdir
-
-tap homebrew/brewdler
-
-tap homebrew/cask-drivers
-cask apogee-duet
-
 tap homebrew/cask-versions
 cask google-chrome-canary
 cask iterm2-beta
@@ -138,7 +27,6 @@ cask diskcatalogmaker
 cask dmm-player-for-chrome
 cask dropbox
 cask evernote
-cask faw-circle
 cask firefox
 cask gas-mask
 cask gfxcardstatus
@@ -153,10 +41,11 @@ cask kindle
 cask libreoffice
 cask liteicon
 cask macdropany
-cask makemkv
-cask mplayer-osx-extended
-cask obs
-cask onyx
+cask macx-video-converter-pro
+cask microsoft-office
+cask mplayerx
+cask omnifocus
+cask pacifist
 cask plex-media-player
 cask proximity
 cask shupapan
@@ -172,20 +61,7 @@ cask virtualbox
 cask vlc
 cask waves-central
 cask xld
-
-tap argon/mas
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty
-
-tap thoughtbot/formulae
-brew rcm
-
-tap vitorgalvao/tiny-scripts
-brew cask-repair
+cask zoomus
 
 tap yutarody/owncask
 cask ableton-live-beta
@@ -204,15 +80,11 @@ cask t0wer
 cask touchable
 cask vienna-ensemble-pro
 
-# Other Homebrew packages
-brew hg
-brew python3
-brew qt5
-
 # Other Cask applications
 cask addictivedrum
 cask alfred
 cask amplitube
+cask apogee-duet
 cask arrsync
 cask au-lab
 cask bathyscaphe
@@ -234,6 +106,7 @@ cask duet
 cask edgeview
 cask etrecheck
 cask fantastical
+cask faw-circle
 cask flashlight
 cask geekbench
 cask gitkraken
@@ -250,11 +123,10 @@ cask license-control-center
 cask lingon-x2
 cask little-snitch
 cask macs-fan-control
-cask macx-video-converter-pro
-cask microsoft-office
-cask mplayerx
-cask omnifocus
-cask pacifist
+cask makemkv
+cask mplayer-osx-extended
+cask obs
+cask onyx
 cask parallels-desktop
 cask polymail
 cask qlmarkdown
