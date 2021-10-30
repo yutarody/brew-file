@@ -80,6 +80,9 @@ cask t0wer
 cask touchable
 cask vienna-ensemble-pro
 
+# Other Homebrew packages
+brew evernote
+
 # Other Cask applications
 cask addictivedrum
 cask alfred
